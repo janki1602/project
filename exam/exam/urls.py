@@ -19,5 +19,8 @@ from myapp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/', views.home, name='home')
+    url(r'^home/', views.home),
+	url(r'^registration/', views.registration),
+	url(r'^login/', views.login),
+	url(r'^display/', views.display)    
 ]
